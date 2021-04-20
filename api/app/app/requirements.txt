@@ -1,0 +1,5 @@
+# Flask and extentions
+flask
+# torchvision
+# torch
+opencv-python

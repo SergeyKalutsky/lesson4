@@ -3,3 +3,4 @@ flask
 # torchvision
 # torch
 opencv-python
+requests

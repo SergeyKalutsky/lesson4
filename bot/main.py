@@ -5,14 +5,14 @@ import discord
 import requests
 
 
-TOKEN = 'ODMzNzgyODk1Mjk4MDg0OTI1.YH3W1Q.5rdyOxABV9TJs6Ap6tyadnjkykc'
+TOKEN = 'ODQwNDc2OTEwNjA1MDQxNzA0.GgEz-X.yWPkl6OLAU5I8eUMV67uqToVcFw4Ata2ycyplQ'
 SERVER_NAME = 'Сергей МЛ'
 IMG_EXTENTIONS = ['jpg', 'png', 'jpeg']
 RULES = {'камень': 'бумага',
          'ножницы': 'камень',
          'бумага': 'ножницы'}
 
-client = discord.Client()
+client = discord.Client(intents=discord.Intents.default())
 
 
 def request_api_data(url, filename):
